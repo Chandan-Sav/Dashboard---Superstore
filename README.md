@@ -12,22 +12,21 @@ Also since average delivery day is 4 days, thus they must try to reduce it.
 
 ### [3] Charts used
 
-  (a) Card
+(a) Card : It was used to display values like sum of 'Profit','Sales','Quantity','Average Delievery Day'.
 
-  (b) Donut Chart
-  
-  (c) Cluster Bar Chart
-  
-  (d) Slicers
-  
-  (e) Stack Area Chart
-  
-  (f) Stacked Column Chart
+(b) Slicer : It was used for the branch which was bifurcated as'Region by directions'.
 
-  (g) Map
-  
-  (h) Line Chart
-  
+(c) Donut Chart : Used for the 'Sales by segment' ,'Sales by Payment mode', 'Sales by Region'.
+
+(d) Cluster bar Chart : Used to display the 'Sales by sub-category' & 'Sales by category'.
+
+(e) Stacked Column Chart : It was used to show the'Sales by Ship mode'.
+
+(f) Line Chart : Used to display the 'Sum of sales by Order Date'[Yearly] & 'Sum of sales by Order Date'[Quaterly].
+
+(g) Map : It was used to show the Profit & Sales by state.
+
+(h) Stacked Bar Chart : This visual was used to show 'Unit Price' by each product line.
  
 ### [4] Steps followed 
 
@@ -91,7 +90,7 @@ Following inferences can be drawn from the dashboard;
 
    Avg Delievery Days = 4 days
 
-           thus, higher number of sales is there than a  profit.
+           Thus, higher number of sales is there than a  profit.
            
 ### Snapshot of Cards (Power BI Report)
 ![dashboard_snapo](https://github.com/Chandan-Sav/Dashboard---Superstore/assets/121309914/3e658f1d-5c6b-4dfc-8dbd-354eed438d5c)
@@ -113,3 +112,5 @@ Following inferences can be drawn from the dashboard;
      b] South  - 16%
      c] West   - 33%
      d] East   - 29%
+               
+             Thus, higher number of sales in segment is by'Consumer' ,in Payment mode by'COD' & in region basis it is 'West'region.
