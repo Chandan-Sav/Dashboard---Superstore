@@ -1,8 +1,8 @@
 # Super Store Sales-Dashboard
 
-### Dashboard Link :https://app.powerbi.com/links/Wuf-THT80l?ctid=3f66430c-920e-49dc-9dd6-8223afea3b81&pbi_source=linkShare
+### [1] Dashboard Link :https://app.powerbi.com/links/Wuf-THT80l?ctid=3f66430c-920e-49dc-9dd6-8223afea3b81&pbi_source=linkShare
 
-## Problem Statement
+### [2] Problem Statement
 
 This dashboard helps the Stores Person understand their customers better. It helps the Stores know if their customers are satisfied with their services. Through different ratings, they get to know their improvement area, & thus they can improve their services by identifying these area. It also lets them know the average delivery date & profit,sales. Thus since by using this dashboard they have identified this problem, they can further work on factors responsible for these unwanted issues.
 
@@ -10,7 +10,7 @@ Since,here we can see in this dashboard the profit and sales unit of a super sto
 
 Also since average delivery day is 4 days, thus they must try to reduce it.
 
-## Charts used
+### [3] Charts used
 
   (a) Card
 
@@ -29,7 +29,7 @@ Also since average delivery day is 4 days, thus they must try to reduce it.
   (h) Line Chart
   
  
-## Steps followed 
+### [4] Steps followed 
 
 - Step 1 : Load data into Power BI Desktop, dataset is a csv file.
 - Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
@@ -48,7 +48,7 @@ Also since average delivery day is 4 days, thus they must try to reduce it.
 - Step 12 : Before report view,some parameters were created for some of the columns which includes 'average' & 'sum'.
 - Step 13 :All columns were reviewed and verified and the blank dummy columns in the end of dataset's were deleted.
 - Step 14 : New measure was created to find average delievery days.
- Step 13 :On 2nd report view, we created a line chart was created which was used to present a yearly and quaterly line graph using sum of sales & Order Date.
+ Step 13 :In 2nd report view, we created a line chart was created which was used to present a yearly and quaterly line graph using sum of sales & Order Date.
 
 Following DAX expression was written for the same,
         
@@ -75,13 +75,13 @@ Following DAX expression was written for the same,
  
 ![Dashboard_upload](https://github.com/Chandan-Sav/Dashboard---Superstore/assets/121309914/dff42b89-7e9b-455b-86eb-81b2680ebe41)
 
-# Insights
+### [5] Insights
 
 A double page report was created on Power BI Desktop & it was then published to Power BI Service.
 
 Following inferences can be drawn from the dashboard;
 
-# Card Values
+#### Card Values
 
    Profit = 175 K
 
@@ -96,7 +96,7 @@ Following inferences can be drawn from the dashboard;
 ### Snapshot of Cards (Power BI Report)
 ![dashboard_snapo](https://github.com/Chandan-Sav/Dashboard---Superstore/assets/121309914/3e658f1d-5c6b-4dfc-8dbd-354eed438d5c)
  
- # Sales
+ #### Sales
  
  1) Sale By segment :-
      a] Home/Office - 19% 
